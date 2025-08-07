@@ -2,10 +2,11 @@
 
 /* GLOBAL */
 @import "./global/global.css";
+@import "./global/header.css";
 
 /* UTILS */
 @import "./utils/cor.css";
 @import "./utils/tipografia.css";
 
 /* THEME */
-@import "./theme/home/index.css";
+@import "./theme/index.css";

@@ -1,8 +1,0 @@
-.main {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    justify-items: end;
-    align-items: center;
-    gap: 60px;
-    background-color: var(--cor-detail-bg);
-}
