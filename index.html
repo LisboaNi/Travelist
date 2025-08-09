@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"/>
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="shortcut icon" href="./src/img/detail-blog.svg" type="image/x-icon">
 
 </head>
 <body>
@@ -35,16 +36,16 @@
         </div>
     </main>
 
-    <section class="container">
+    <section class="container" id="blog">
         <div class="section">
 
             <div class="section-blog background">
-                <img src="./src/img/section-blog.png" alt="Foto de Abhi Verma">
+                <div><img src="./src/img/section-blog.png" alt="Foto de Abhi Verma"></div>
                 <p>Não é só sobre o destino, é sobre as experiências que você vive pelo caminho. Conheça lugares que transformam, inspiram e conectam.</p>
-                <ul class="icon">
-                    <li class="tag icon"><i class="bi bi-airplane"></i>DESTINOS</li>
-                    <li class="tag icon"><i class="bi bi-globe"></i>ROTEIROS</li>
-                    <li class="tag icon"><i class="bi bi-lightbulb"></i>DICAS</li>
+                <ul class="icon tag-icon">
+                    <li class="tag icon"><i class="bi bi-airplane"></i>Destinos</li>
+                    <li class="tag icon"><i class="bi bi-globe"></i>Roteiros</li>
+                    <li class="tag icon"><i class="bi bi-lightbulb"></i>Dicas</li>
                 </ul>
             </div>
 
@@ -77,57 +78,57 @@
         </div>
     </section>
 
-    <article class="container">
+    <article class="container" id="article">
         <div class="article">
 
             <div class="title">
                 <h2>Últimos artigos publicados.</h2>
-                <a href="#">Ver tudo</a>
+                <a href="#" id="btnVerMais">Ver tudo</a>
             </div>
             <p>Inspire-se com roteiros, guias e histórias de viagem cuidadosamente selecionadas por quem já esteve lá.</p>
 
             <ul class="icon">
                 <li>
-                    <div>
+                    <div class="bg-1 bg">
                         <h3>7 Lugares Surpreendentes no Sul do Brasil</h3>
-                        <a class="tag" href="./src/public/article.html">ARTIGOS</a>
+                        <a class="tag" href="./src/public/article.html">ARTIGO</a>
                     </div>
                     <span>Autor: Abhi Verma</span>
                 </li>
                 <li>
-                    <div>
+                    <div class="bg-2 bg">
                         <h3>O Que Fazer em Jericoacoara em 4 Dias</h3>
-                        <a class="tag" href="./src/public/article.html">ARTIGOS</a>
+                        <a class="tag" href="./src/public/article.html">ARTIGO</a>
                     </div>
                     <span>Autor: Peter Thomas</span>
                 </li>
                 <li>
-                    <div>
+                    <div class="bg-3 bg">
                         <h3>Chapada dos Veadeiros</h3>
-                        <a class="tag" href="./src/public/article.html">ARTIGOS</a>
+                        <a class="tag" href="./src/public/article.html">ARTIGO</a>
                     </div>
                     <span>Autor: Alex Panari</span>
                 </li>
                 <li>
-                    <div>
+                    <div class="bg-3 bg">
+                        <h3>Chapada dos Veadeiros</h3>
+                        <a class="tag" href="./src/public/article.html">ARTIGO</a>
+                    </div>
+                    <span>Autor: Alex Panari</span>
+                </li>
+                <li>
+                    <div class="bg-2 bg">
+                        <h3>O Que Fazer em Jericoacoara em 4 Dias</h3>
+                        <a class="tag" href="./src/public/article.html">ARTIGO</a>
+                    </div>
+                    <span>Autor: Peter Thomas</span>
+                </li>
+                <li>
+                    <div class="bg-1 bg">
                         <h3>7 Lugares Surpreendentes no Sul do Brasil</h3>
-                        <a class="tag" href="./src/public/article.html">ARTIGOS</a>
+                        <a class="tag" href="./src/public/article.html">ARTIGO</a>
                     </div>
                     <span>Autor: Abhi Verma</span>
-                </li>
-                <li>
-                    <div>
-                        <h3>O Que Fazer em Jericoacoara em 4 Dias</h3>
-                        <a class="tag" href="./src/public/article.html">ARTIGOS</a>
-                    </div>
-                    <span>Autor: Peter Thomas</span>
-                </li>
-                <li>
-                    <div>
-                        <h3>Chapada dos Veadeiros</h3>
-                        <a class="tag" href="./src/public/article.html">ARTIGOS</a>
-                    </div>
-                    <span>Autor: Alex Panari</span>
                 </li>
             </ul>
         </div>
@@ -152,5 +153,7 @@
 
         </div>
     </footer>
+
+    <script src="./src/js/script.js"></script>
 </body>
 </html>
